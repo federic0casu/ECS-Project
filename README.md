@@ -12,7 +12,7 @@
   is the following:
 </p>
 <p align="center">
-  <img src="./CNN_layer_element_formula.png" alt="formula" style="border:0;">
+  <img src="./images/CNN_layer_element_formula.png" alt="formula" style="border:0;">
 </p>
 <p>    
   Notice that: the dimension of the filter matrix is smaller than the dimension of the input matrix. The convolution is applied to a submatrix of the input matrix. x_i
@@ -20,5 +20,5 @@
 </p>
 <h3>Example</h3>
 <p>
-  <img src="./CNN_layer_example.png" alt="example" style="border:0;">
+  <img src="./images/CNN_layer_example.png" alt="example" style="border:0;">
 </p>
