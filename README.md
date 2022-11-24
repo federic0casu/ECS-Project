@@ -12,7 +12,7 @@
   is the following:
 </p>
 <p align="center">
-  <img src="https://www.raspberrypi.org/app/uploads/2018/03/RPi-Logo-Reg-SCREEN-199x250.png" alt="Raspberry pi" style="width:20%; border:0;">
+  <img src="./CNN_layer_element_formula.png" alt="formula" style="border:0;">
 </p>
 <p>    
   Notice that: the dimension of the filter matrix is smaller than the dimension of the input matrix. The convolution is applied to a submatrix of the input matrix. x_i
@@ -28,14 +28,12 @@
   0	1	1	0	0     <br/>
   
   <br/>
-  <br/>
 
   FILTER MATRIX: <br/>
   1	0	1          <br/>
   0	1	0          <br/>
   1	0	1          <br/>
 
-  <br/>
   <br/>
   
   OUTPUT MATRIX: <br/>
