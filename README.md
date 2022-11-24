@@ -20,24 +20,5 @@
 </p>
 <h3>Example</h3>
 <p>
-  INPUT MATRIX: <br/>
-  1	1	1	0	0     <br/>
-  0	1	1	1	0     <br/>
-  0	0	1	1	1     <br/>
-  0	0	1	1	0     <br/>
-  0	1	1	0	0     <br/>
-  
-  <br/>
-
-  FILTER MATRIX: <br/>
-  1	0	1          <br/>
-  0	1	0          <br/>
-  1	0	1          <br/>
-
-  <br/>
-  
-  OUTPUT MATRIX: <br/>
-  4	3	4          <br/>
-  2	4	3          <br/>
-  2	3	4          <br/>
+  <img src="./CNN_layer_example.png" alt="example" style="border:0;">
 </p>
