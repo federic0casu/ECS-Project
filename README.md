@@ -12,14 +12,14 @@
   is the following:
 </p>
 <p align="center">
-  ![logo](https://www.raspberrypi.org/app/uploads/2018/03/RPi-Logo-Reg-SCREEN-199x250.png "Raspberry pi")
+  <img src="https://www.raspberrypi.org/app/uploads/2018/03/RPi-Logo-Reg-SCREEN-199x250.png" alt="Raspberry pi" style="width:20%; border:0;">
 </p>
 <p>    
   Notice that: the dimension of the filter matrix is smaller than the dimension of the input matrix. The convolution is applied to a submatrix of the input matrix. x_i
   and y_i are offsets in the input matrix which depend on the element of the output matrix to calculate.
 </p>
 <h3>Example</h3>
-<p align="center">
+<p>
   INPUT MATRIX: <br/>
   1	1	1	0	0     <br/>
   0	1	1	1	0     <br/>
