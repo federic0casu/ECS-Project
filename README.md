@@ -19,6 +19,6 @@
   and y_i are offsets in the input matrix which depend on the element of the output matrix to calculate.
 </p>
 <h3>Example</h3>
-<p>
+<p align="center">
   <img src="./images/CNN_layer_example.png" alt="example" style="border:0;">
 </p>
