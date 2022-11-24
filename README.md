@@ -1,7 +1,3 @@
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
 # ECS - Project
 <h2>Implementation of a CNN Layer</h2>
 <h3>Brief Description</h3>
@@ -19,4 +15,25 @@
 <p>    
   Notice that: the dimension of the filter matrix is smaller than the dimension of the input matrix. The convolution is applied to a submatrix of the input matrix. x_i
   and y_i are offsets in the input matrix which depend on the element of the output matrix to calculate.
+</p>
+<h3>Example</h3>
+<p>
+  INPUT MATRIX:
+  1	1	1	0	0
+  0	1	1	1	0
+  0	0	1	1	1
+  0	0	1	1	0
+  0	1	1	0	0
+
+
+  FILTER MATRIX:
+  1	0	1
+  0	1	0
+  1	0	1
+
+
+  OUTPUT MATRIX:
+  4	3	4
+  2	4	3
+  2	3	4
 </p>
