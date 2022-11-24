@@ -8,5 +8,7 @@
     <li>1 input channel;</li>
     <li>N output channels. Each output channel is generated using an associated filter f(i) which belongs to R^(W×H).</li>
   </ul>
-  Each element of 𝐶𝑜𝑢𝑡(𝑖) is calculated with the convolution between W×H elements of the input matrix and the W×H elements of the associated filter, f(i).
+  Each element of 𝐶𝑜𝑢𝑡(𝑖) is calculated with the convolution between W×H elements of the input matrix and the W×H elements of the associated filter, f(i). The formula is
+  the following:
+  $$C_{out}(i)(x,y) = \sum_{j=0,k=0}^{j=w,k=h}f_i(j,k)C_{in}(x_{i} + j, y_i + k)$$
 </p>
