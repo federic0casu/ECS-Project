@@ -10,5 +10,9 @@
   </ul>
   Each element of 𝐶𝑜𝑢𝑡(𝑖) is calculated with the convolution between W×H elements of the input matrix and the W×H elements of the associated filter, f(i). The formula is
   the following:
-  $$C_{out}(i)(x,y) = \sum_{j=0,k=0}^{j=w,k=h}f_i(j,k)C_{in}(x_{i} + j, y_i + k)$$
+  $C_{out}(i)(x,y) = \sum_{j=0,k=0}^{j=w,k=h}f_i(j,k)C_{in}(x_{i} + j, y_i + k)$
+</p>
+<p>    
+  Notice that: the dimension of the filter matrix is smaller than the dimension of the input matrix. The convolution is applied to a submatrix of the input matrix. x_i
+  and y_i are offsets in the input matrix which depend on the element of the output matrix to calculate.
 </p>
