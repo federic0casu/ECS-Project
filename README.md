@@ -25,5 +25,5 @@
 <h3>Implementation</h3>
 <h2>FSM</h2>
 <p align="center">
-  <img src="./images/CNN_Layer_FSM.png" alt="FSM" style="border:0;">
+  <img src="./images/CNN_Layer_FSM2.png" alt="FSM" style="border:0;">
 </p>
