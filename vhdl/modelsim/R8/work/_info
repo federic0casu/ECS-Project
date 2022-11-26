@@ -1,0 +1,183 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Computer Engineering @ UniPi/ECS/VHDL/DDFS_WRAPPER/modelsim
+Eddfs_opt_tb
+Z0 w1668880838
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 17
+Z4 dD:/Computer Engineering @ UniPi/ECS/PROJECT/VHDL/modelsim/R8
+Z5 8D:/Computer Engineering @ UniPi/ECS/PROJECT/VHDL/tb/R8_tb/R8_tb.vhd
+Z6 FD:/Computer Engineering @ UniPi/ECS/PROJECT/VHDL/tb/R8_tb/R8_tb.vhd
+l0
+L5 1
+Vi<Qfm8zh@UUZng]dd=Zg12
+!s100 5DjG3<OcmP2z5G9l4<SnP2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1668880842
+!i10b 1
+Z9 !s108 1668880842.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/ECS/PROJECT/VHDL/tb/R8_tb/R8_tb.vhd|
+Z11 !s107 D:/Computer Engineering @ UniPi/ECS/PROJECT/VHDL/tb/R8_tb/R8_tb.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarchitecture_of_tb
+R1
+R2
+R3
+DEx4 work 11 ddfs_opt_tb 0 22 i<Qfm8zh@UUZng]dd=Zg12
+!i122 17
+l45
+L8 79
+VL^k9NO_A?:>=>kU;M0BY:2
+!s100 FD6Fee58@H95[J2X5UKH:2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Er1
+Z14 w1668880705
+R1
+R2
+R3
+!i122 24
+R4
+Z15 8D:/Computer Engineering @ UniPi/ECS/PROJECT/VHDL/src/R1.vhd
+Z16 FD:/Computer Engineering @ UniPi/ECS/PROJECT/VHDL/src/R1.vhd
+l0
+Z17 L15 1
+VX?0cCMlXW?4AkSdHiGhoN3
+!s100 GN`F5Tm8<:OK]LeXH:3z`3
+R7
+32
+Z18 !s110 1668881420
+!i10b 1
+Z19 !s108 1668881420.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/ECS/PROJECT/VHDL/src/R1.vhd|
+Z21 !s107 D:/Computer Engineering @ UniPi/ECS/PROJECT/VHDL/src/R1.vhd|
+!i113 1
+R12
+R13
+Aarch
+R1
+R2
+R3
+DEx4 work 2 r1 0 22 X?0cCMlXW?4AkSdHiGhoN3
+!i122 24
+l25
+L24 13
+VN0GWl9`ekUb<5gBI=aC;K1
+!s100 5`dL5>g4<[AO_GWkmDbRD2
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Er8
+Z22 w1668880732
+R1
+R2
+R3
+!i122 25
+R4
+Z23 8D:/Computer Engineering @ UniPi/ECS/PROJECT/VHDL/src/R8.vhd
+Z24 FD:/Computer Engineering @ UniPi/ECS/PROJECT/VHDL/src/R8.vhd
+l0
+R17
+VY9N]Ii_zX3Y5Ln:7^jO4X3
+!s100 k;@YdfR7<@haG6V8]I1122
+R7
+32
+R18
+!i10b 1
+R19
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/ECS/PROJECT/VHDL/src/R8.vhd|
+Z26 !s107 D:/Computer Engineering @ UniPi/ECS/PROJECT/VHDL/src/R8.vhd|
+!i113 1
+R12
+R13
+Aarch
+R1
+R2
+R3
+DEx4 work 2 r8 0 22 Y9N]Ii_zX3Y5Ln:7^jO4X3
+!i122 25
+l47
+L24 36
+V9BYCPNe4SEUBNmTJ1HGb[0
+!s100 3k9VQ7kXOg74mCo`^SPn<0
+R7
+32
+R18
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R12
+R13
+Er8_tb
+Z27 w1668881314
+R1
+R2
+R3
+!i122 26
+R4
+R5
+R6
+l0
+L5 1
+VA0?V^Y7DO^^XadaYJ>a3B1
+!s100 ?IOeZmk7RZgX9cQ]m>BFI1
+R7
+32
+Z28 !s110 1668881421
+!i10b 1
+Z29 !s108 1668881421.000000
+R10
+R11
+!i113 1
+R12
+R13
+Aarchitecture_of_tb
+R1
+R2
+R3
+Z30 DEx4 work 5 r8_tb 0 22 A0?V^Y7DO^^XadaYJ>a3B1
+!i122 26
+l45
+L8 87
+VDOd42if9^nLa0N01U0@jW3
+!s100 AI:Ib3Lbo5?SgTRSZ;<jG0
+R7
+32
+R28
+!i10b 1
+R29
+R10
+R11
+!i113 1
+R12
+R13
