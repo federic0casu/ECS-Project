@@ -1,0 +1,70 @@
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of full_adder_tree_tb.vhd was successful.
+# Compile of conv.vhd failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of full_adder_tree_tb.vhd was successful.
+# Compile of conv.vhd failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of full_adder_tree_tb.vhd was successful.
+# Compile of conv.vhd failed with 3 errors.
+# 6 compiles, 1 failed with 3 errors.
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of full_adder_tree_tb.vhd was successful.
+# Compile of conv.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd failed with 9 errors.
+# Compile of full_adder_tree_tb.vhd was successful.
+# Compile of conv.vhd was successful.
+# 6 compiles, 1 failed with 9 errors.
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of full_adder_tree_tb.vhd was successful.
+# Compile of conv.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.full_adder_tree_tb
+# vsim -gui work.full_adder_tree_tb 
+# Start time: 10:33:46 on Mar 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.common_pkg(body)
+# Loading work.full_adder_tree_tb(architecture_of_tb)
+# Loading work.full_adder_tree(logic)
+# Loading work.full_adder_level(logic)
+# Loading work.full_adder(logic)
+add wave -position insertpoint sim:/full_adder_tree_tb/DUT/*
+add wave -position insertpoint sim:/full_adder_tree_tb/DUT/*
+run -all
+# ** Note: S must be '00000000' - S = '0''0''0''0''0''0''0''0'
+#    Time: 108 ns  Iteration: 0  Instance: /full_adder_tree_tb
+# ** Note: S must be '00101000' - S = '0''0''1''0''0''0''0''0'
+#    Time: 8108 ns  Iteration: 0  Instance: /full_adder_tree_tb
+# ** Note: S must be '00100010' - S = '0''0''1''0''0''0''1''0'
+#    Time: 16108 ns  Iteration: 0  Instance: /full_adder_tree_tb
+# ** Note: S must be '11110000' - S = '1''1''1''1''0''0''0''0'
+#    Time: 24108 ns  Iteration: 0  Instance: /full_adder_tree_tb
+# ** Note: S must be '01011101' - S = '0''1''0''1''1''1''0''1'
+#    Time: 32108 ns  Iteration: 0  Instance: /full_adder_tree_tb
+# ** Note: S must be '01010100' - S = '0''1''0''1''0''1''0''0'
+#    Time: 40108 ns  Iteration: 0  Instance: /full_adder_tree_tb
