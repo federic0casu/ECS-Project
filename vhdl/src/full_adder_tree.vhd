@@ -18,13 +18,12 @@ library work;
 
 entity full_adder_tree is
     generic (
-        N    : positive;
         M    : positive
     );
     port (
         A   : in  VECTOR(M-1 downto 0);
         B   : in  VECTOR(M-1 downto 0);
-        S   : out std_logic_vector(N-1 downto 0)
+        S   : out std_logic_vector(N_BIT-1 downto 0)
     );
 end entity;
 
@@ -34,7 +33,6 @@ architecture logic of full_adder_tree is
     --------------------------------------------------------------------
     component full_adder_level is
         generic (
-            N_L    : positive;
             M_L    : positive
         );
         port (
@@ -45,13 +43,10 @@ architecture logic of full_adder_tree is
     end component;
 
     component full_adder is
-        generic (
-            N_FA   : positive
-        );
         port (
-            A_FA   : in  std_logic_vector(N_FA-1 downto 0);
-            B_FA   : in  std_logic_vector(N_FA-1 downto 0);
-            S_FA   : out std_logic_vector(N_FA-1 downto 0)
+            A_FA   : in  std_logic_vector(N_BIT-1 downto 0);
+            B_FA   : in  std_logic_vector(N_BIT-1 downto 0);
+            S_FA   : out std_logic_vector(N_BIT-1 downto 0)
         );
     end component;
     --------------------------------------------------------------------
@@ -69,11 +64,10 @@ architecture logic of full_adder_tree is
     --------------------------------------------------------------------
 begin
     
-    LEVELS: for i in 0 to (log2(M) - 1) generate
+    LEVELS: for i in 0 to log2(M) generate
         LABEL_FIRST_LEVEL: if i = 0 generate
             FIRST_LEVEL: full_adder_level
                 generic map (
-                    N_L => N,
                     M_L => M
                 )
                 port map (
@@ -86,7 +80,6 @@ begin
         LABEL_SECOND_LEVEL: if (i = 1 and log2(M) > 2) generate
             SECOND_LEVEL: full_adder_level
                 generic map (
-                    N_L => N,
                     M_L => M/2
                 )
                 port map (
@@ -96,10 +89,9 @@ begin
                 );
         end generate;
 
-        LABEL_INTERMEDIATE_LEVEL: if (i > 1 and i < (log2(M) - 1)) generate
+        LABEL_INTERMEDIATE_LEVEL: if (i > 1 and i < log2(M)) generate
             INTERMEDIATE_LEVEL: full_adder_level
                 generic map (
-                    N_L => N,
                     M_L => M/(2*i)
                 )
                 port map (
@@ -109,11 +101,8 @@ begin
                 );
         end generate;
 
-        LABEL_LAST_LEVEL: if i = (log2(M) - 1) generate
+        LABEL_LAST_LEVEL: if i = log2(M) generate
             LAST_LEVEL: full_adder
-                generic map (
-                    N_FA => N
-                )
                 port map (
                     A_FA => s_sign(i-1)(0),
                     B_FA => s_sign(i-1)(1),
