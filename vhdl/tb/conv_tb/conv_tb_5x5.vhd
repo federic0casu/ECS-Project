@@ -182,6 +182,34 @@ begin
                     --------------------------------------------------------------------------------------------------------
                     -- End 1st test 
                     --------------------------------------------------------------------------------------------------------
+
+                    --------------------------------------------------------------------------------------------------------
+                    -- 2nd test
+                    --------------------------------------------------------------------------------------------------------
+                    when 2000 => k_tb(0)  <= std_logic_vector(to_unsigned(1, 8)); k_tb(8)  <= std_logic_vector(to_unsigned(1, 8));
+                                 k_tb(1)  <= std_logic_vector(to_unsigned(0, 8)); k_tb(9)  <= std_logic_vector(to_unsigned(0, 8));  
+                                 k_tb(2)  <= std_logic_vector(to_unsigned(1, 8)); k_tb(10) <= std_logic_vector(to_unsigned(1, 8));
+                                 k_tb(3)  <= std_logic_vector(to_unsigned(0, 8)); k_tb(11) <= std_logic_vector(to_unsigned(0, 8));
+                                 k_tb(4)  <= std_logic_vector(to_unsigned(1, 8)); k_tb(12) <= std_logic_vector(to_unsigned(1, 8));
+                                 k_tb(5)  <= std_logic_vector(to_unsigned(0, 8)); k_tb(13) <= std_logic_vector(to_unsigned(0, 8));  
+                                 k_tb(6)  <= std_logic_vector(to_unsigned(1, 8)); k_tb(14) <= std_logic_vector(to_unsigned(1, 8));
+                                 k_tb(7)  <= std_logic_vector(to_unsigned(1, 8)); k_tb(15) <= std_logic_vector(to_unsigned(1, 8));
+                                 
+                                 k_tb(16) <= std_logic_vector(to_unsigned(1, 8)); k_tb(24) <= std_logic_vector(to_unsigned(1, 8));
+                                 k_tb(17) <= std_logic_vector(to_unsigned(0, 8));
+                                 k_tb(18) <= std_logic_vector(to_unsigned(1, 8));
+                                 k_tb(19) <= std_logic_vector(to_unsigned(0, 8));
+                                 k_tb(20) <= std_logic_vector(to_unsigned(1, 8));
+                                 k_tb(21) <= std_logic_vector(to_unsigned(0, 8));
+                                 k_tb(22) <= std_logic_vector(to_unsigned(1, 8));
+                                 k_tb(23) <= std_logic_vector(to_unsigned(1, 8)); 
+                    when 2001 => report "O must be '00010000' - O = " & std_logic'image(o_tb(7)) & std_logic'image(o_tb(6)) 
+                                                                      & std_logic'image(o_tb(5)) & std_logic'image(o_tb(4))
+                                                                      & std_logic'image(o_tb(3)) & std_logic'image(o_tb(2))
+                                                                      & std_logic'image(o_tb(1)) & std_logic'image(o_tb(0));
+                    --------------------------------------------------------------------------------------------------------
+                    -- End 2nd test 
+                    --------------------------------------------------------------------------------------------------------
                     when others => null;                    -- Specifying that nothing happens in the other cases
                     end case;
                 t := t + 1;  								             
