@@ -16,8 +16,8 @@ library work;
 
 entity full_adder is
     port (
-        A_FA   : in std_logic_vector(N_BIT-1 downto 0);
-        B_FA   : in std_logic_vector(N_BIT-1 downto 0);
+        A_FA   : in  std_logic_vector(N_BIT-1 downto 0);
+        B_FA   : in  std_logic_vector(N_BIT-1 downto 0);
         S_FA   : out std_logic_vector(N_BIT-1 downto 0)
     );
 end entity;

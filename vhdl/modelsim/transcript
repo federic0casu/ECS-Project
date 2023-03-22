@@ -2,69 +2,454 @@
 # Compile of full_adder.vhd was successful.
 # Compile of full_adder_level.vhd was successful.
 # Compile of full_adder_tree.vhd was successful.
-# Compile of full_adder_tree_tb.vhd was successful.
-# Compile of conv.vhd failed with 1 errors.
-# 6 compiles, 1 failed with 1 error.
-# Compile of common_pkg.vhd was successful.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_level.vhd was successful.
-# Compile of full_adder_tree.vhd was successful.
-# Compile of full_adder_tree_tb.vhd was successful.
-# Compile of conv.vhd failed with 1 errors.
-# 6 compiles, 1 failed with 1 error.
-# Compile of common_pkg.vhd was successful.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_level.vhd was successful.
-# Compile of full_adder_tree.vhd was successful.
-# Compile of full_adder_tree_tb.vhd was successful.
-# Compile of conv.vhd failed with 3 errors.
-# 6 compiles, 1 failed with 3 errors.
-# Compile of common_pkg.vhd was successful.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_level.vhd was successful.
-# Compile of full_adder_tree.vhd was successful.
-# Compile of full_adder_tree_tb.vhd was successful.
 # Compile of conv.vhd was successful.
-# 6 compiles, 0 failed with no errors.
-# Compile of common_pkg.vhd was successful.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_level.vhd was successful.
-# Compile of full_adder_tree.vhd failed with 9 errors.
-# Compile of full_adder_tree_tb.vhd was successful.
-# Compile of conv.vhd was successful.
-# 6 compiles, 1 failed with 9 errors.
-# Compile of common_pkg.vhd was successful.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_level.vhd was successful.
-# Compile of full_adder_tree.vhd was successful.
-# Compile of full_adder_tree_tb.vhd was successful.
-# Compile of conv.vhd was successful.
-# 6 compiles, 0 failed with no errors.
-vsim -gui work.full_adder_tree_tb
-# vsim -gui work.full_adder_tree_tb 
-# Start time: 10:33:46 on Mar 21,2023
+# Compile of mul.vhd was successful.
+# Compile of conv_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.conv_tb
+# vsim -gui work.conv_tb 
+# Start time: 15:29:46 on Mar 21,2023
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
 # Loading ieee.math_real(body)
 # Loading work.common_pkg(body)
-# Loading work.full_adder_tree_tb(architecture_of_tb)
+# Loading work.conv_tb(architecture_of_tb)
+# Loading work.conv(logic)
+# Loading work.mul(logic)
 # Loading work.full_adder_tree(logic)
 # Loading work.full_adder_level(logic)
 # Loading work.full_adder(logic)
-add wave -position insertpoint sim:/full_adder_tree_tb/DUT/*
-add wave -position insertpoint sim:/full_adder_tree_tb/DUT/*
+add wave -position insertpoint sim:/conv_tb/DUT/*
 run -all
-# ** Note: S must be '00000000' - S = '0''0''0''0''0''0''0''0'
-#    Time: 108 ns  Iteration: 0  Instance: /full_adder_tree_tb
-# ** Note: S must be '00101000' - S = '0''0''1''0''0''0''0''0'
-#    Time: 8108 ns  Iteration: 0  Instance: /full_adder_tree_tb
-# ** Note: S must be '00100010' - S = '0''0''1''0''0''0''1''0'
-#    Time: 16108 ns  Iteration: 0  Instance: /full_adder_tree_tb
-# ** Note: S must be '11110000' - S = '1''1''1''1''0''0''0''0'
-#    Time: 24108 ns  Iteration: 0  Instance: /full_adder_tree_tb
-# ** Note: S must be '01011101' - S = '0''1''0''1''1''1''0''1'
-#    Time: 32108 ns  Iteration: 0  Instance: /full_adder_tree_tb
-# ** Note: S must be '01010100' - S = '0''1''0''1''0''1''0''0'
-#    Time: 40108 ns  Iteration: 0  Instance: /full_adder_tree_tb
+# ** Note: O must be '00000000' - O = '0''0''0''0''0''0''0''0'
+#    Time: 108 ns  Iteration: 0  Instance: /conv_tb
+# ** Note: O must be '10001000' - O = '1''0''0''0''1''0''0''0'
+#    Time: 8108 ns  Iteration: 0  Instance: /conv_tb
+# ** Note: O must be '00010000' - O = '0''0''0''1''0''0''0''0'
+#    Time: 16108 ns  Iteration: 0  Instance: /conv_tb
+# ** Note: O must be '11001000' - O = '1''1''0''0''1''0''0''0'
+#    Time: 24108 ns  Iteration: 0  Instance: /conv_tb
+# ** Note: O must be '1011000' - O = '0''1''0''1''1''0''0''0'
+#    Time: 32108 ns  Iteration: 0  Instance: /conv_tb
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# 6 compiles, 1 failed with no errors.
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd failed with 6 errors.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_3x3.vhd failed with 2 errors.
+# 7 compiles, 2 failed with 8 errors.
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd failed with 6 errors.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_3x3.vhd failed with 2 errors.
+# 7 compiles, 2 failed with 8 errors.
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd failed with 1 errors.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_3x3.vhd failed with 2 errors.
+# 7 compiles, 2 failed with 3 errors.
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_3x3.vhd failed with 2 errors.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_3x3.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_3x3.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.conv_tb_3x3
+# End time: 17:11:54 on Mar 21,2023, Elapsed time: 1:42:08
+# Errors: 0, Warnings: 11
+# vsim -gui work.conv_tb_3x3 
+# Start time: 17:11:54 on Mar 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.common_pkg(body)
+# Loading work.conv_tb_3x3(architecture_of_tb)
+# Loading work.conv(logic)
+# Loading work.mul(logic)
+# Loading work.full_adder_tree(logic)
+# Loading work.full_adder_level(logic)
+# Loading work.full_adder(logic)
+add wave -position insertpoint sim:/conv_tb_3x3/DUT/*
+run -all
+# ** Note: O must be '00000000' - O = 'X''X''X''X''X''X''X''X'
+#    Time: 108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# ** Note: O must be '11100000' - O = 'X''X''X''X''X''X''X''X'
+#    Time: 8108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_3x3.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.conv_tb_3x3
+# End time: 17:18:22 on Mar 21,2023, Elapsed time: 0:06:28
+# Errors: 0, Warnings: 2
+# vsim -gui work.conv_tb_3x3 
+# Start time: 17:18:22 on Mar 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.common_pkg(body)
+# Loading work.conv_tb_3x3(architecture_of_tb)
+# Loading work.conv(logic)
+# Loading work.mul(logic)
+# Loading work.full_adder_tree(logic)
+# Loading work.full_adder_level(logic)
+# Loading work.full_adder(logic)
+add wave -position insertpoint sim:/conv_tb_3x3/DUT/*
+run -all
+# ** Note: O must be '00000000' - O = 'X''X''X''X''X''X''X''X'
+#    Time: 108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# ** Note: O must be '11100000' - O = 'X''X''X''X''X''X''X''X'
+#    Time: 8108 ns  Iteration: 0  Instance: /conv_tb_3x3
+add wave -position insertpoint sim:/conv_tb_3x3/DUT/LABEL_3x3/ADDER_X/*
+add wave -position insertpoint sim:/conv_tb_3x3/DUT/LABEL_3x3/TREE_INST_3x3/*
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_3x3.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.conv_tb_3x3
+# End time: 17:32:14 on Mar 21,2023, Elapsed time: 0:13:52
+# Errors: 0, Warnings: 2
+# vsim -gui work.conv_tb_3x3 
+# Start time: 17:32:14 on Mar 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.common_pkg(body)
+# Loading work.conv_tb_3x3(architecture_of_tb)
+# Loading work.conv(logic)
+# Loading work.mul(logic)
+# Loading work.full_adder_tree(logic)
+# Loading work.full_adder_level(logic)
+# Loading work.full_adder(logic)
+add wave -position insertpoint sim:/conv_tb_3x3/DUT/*
+run -all
+# ** Note: O must be '00000000' - O = '0''0''0''0''0''0''0''0'
+#    Time: 108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# ** Note: O must be '11100000' - O = '1''1''0''1''1''1''1''1'
+#    Time: 8108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_3x3.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.conv_tb_3x3
+# End time: 17:57:50 on Mar 21,2023, Elapsed time: 0:25:36
+# Errors: 0, Warnings: 2
+# vsim -gui work.conv_tb_3x3 
+# Start time: 17:57:51 on Mar 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.common_pkg(body)
+# Loading work.conv_tb_3x3(architecture_of_tb)
+# Loading work.conv(logic)
+# Loading work.mul(logic)
+# Loading work.full_adder_tree(logic)
+# Loading work.full_adder_level(logic)
+# Loading work.full_adder(logic)
+add wave -position insertpoint sim:/conv_tb_3x3/DUT/*
+run -all
+# ** Note: O must be '00000000' - O = '0''0''0''0''0''0''0''0'
+#    Time: 108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# ** Note: O must be '11011111' - O = '1''1''0''1''1''1''1''1'
+#    Time: 8108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# ** Note: O must be '00000000' - O = '0''0''0''0''0''0''0''0'
+#    Time: 16108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_3x3.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.conv_tb_3x3
+# End time: 18:03:47 on Mar 21,2023, Elapsed time: 0:05:56
+# Errors: 0, Warnings: 2
+# vsim -gui work.conv_tb_3x3 
+# Start time: 18:03:47 on Mar 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.common_pkg(body)
+# Loading work.conv_tb_3x3(architecture_of_tb)
+# Loading work.conv(logic)
+# Loading work.mul(logic)
+# Loading work.full_adder_tree(logic)
+# Loading work.full_adder_level(logic)
+# Loading work.full_adder(logic)
+add wave -position insertpoint sim:/conv_tb_3x3/DUT/*
+run -all
+# ** Note: O must be '00000000' - O = '0''0''0''0''0''0''0''0'
+#    Time: 108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# ** Note: O must be '11011111' - O = '1''1''0''1''1''1''1''1'
+#    Time: 8108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# ** Note: O must be '00000000' - O = '0''0''0''0''0''0''0''0'
+#    Time: 16108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# ** Note: O must be '00110110' - O = '0''0''1''1''0''1''1''0'
+#    Time: 24108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_3x3.vhd failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_3x3.vhd failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_3x3.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.conv_tb_3x3
+# End time: 18:09:09 on Mar 21,2023, Elapsed time: 0:05:22
+# Errors: 0, Warnings: 4
+# vsim -gui work.conv_tb_3x3 
+# Start time: 18:09:09 on Mar 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.common_pkg(body)
+# Loading work.conv_tb_3x3(architecture_of_tb)
+# Loading work.conv(logic)
+# Loading work.mul(logic)
+# Loading work.full_adder_tree(logic)
+# Loading work.full_adder_level(logic)
+# Loading work.full_adder(logic)
+add wave -position insertpoint sim:/conv_tb_3x3/DUT/*
+run -all
+# ** Note: O must be '00000000' - O = '0''0''0''0''0''0''0''0'
+#    Time: 108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# ** Note: O must be '11011111' - O = '1''1''0''1''1''1''1''1'
+#    Time: 8108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# ** Note: O must be '00000000' - O = '0''0''0''0''0''0''0''0'
+#    Time: 16108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# ** Note: O must be '00110110' - O = '0''0''1''1''0''1''1''0'
+#    Time: 24108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# ** Note: O must be '11001010' - O = '1''1''0''0''1''0''1''0'
+#    Time: 32108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# ** Note: O must be '01100001' - O = '0''1''1''0''0''0''0''1'
+#    Time: 40108 ns  Iteration: 0  Instance: /conv_tb_3x3
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_16x16.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_16x16.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.conv_tb_16x16
+# End time: 18:12:57 on Mar 21,2023, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 5
+# vsim -gui work.conv_tb_16x16 
+# Start time: 18:12:57 on Mar 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.common_pkg(body)
+# Loading work.conv_tb_16x16(architecture_of_tb)
+# Loading work.conv(logic)
+# ** Fatal: (vsim-3357) At depth 1, port length (512) does not match actual length (32) for port "/conv_tb_16x16/DUT/INPUT".
+#    Time: 0 ps  Iteration: 0  Instance: /conv_tb_16x16/DUT File: D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/conv.vhd Line: 23
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:12:58 on Mar 21,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_4x4.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.conv_tb_4x4
+# vsim -gui work.conv_tb_4x4 
+# Start time: 18:18:51 on Mar 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.common_pkg(body)
+# Loading work.conv_tb_4x4(architecture_of_tb)
+# Loading work.conv(logic)
+# Loading work.mul(logic)
+# Loading work.full_adder_tree(logic)
+# ** Fatal: (vsim-3357) At depth 1, port length (16) does not match actual length (17) for port "/conv_tb_4x4/DUT/LABEL_4x4/TREE_INST_4x4/B".
+#    Time: 0 ps  Iteration: 0  Instance: /conv_tb_4x4/DUT/LABEL_4x4/TREE_INST_4x4 File: D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_tree.vhd Line: 25
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:18:52 on Mar 21,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 4
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_4x4.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.conv_tb_4x4
+# vsim -gui work.conv_tb_4x4 
+# Start time: 18:22:16 on Mar 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.common_pkg(body)
+# Loading work.conv_tb_4x4(architecture_of_tb)
+# Loading work.conv(logic)
+# Loading work.mul(logic)
+# Loading work.full_adder_tree(logic)
+# Loading work.full_adder_level(logic)
+# Loading work.full_adder(logic)
+# ** Fatal: (vsim-3471) Slice range (31 downto 16) does not belong to the prefix index range (15 downto 0).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_tb_4x4/DUT/LABEL_4x4/TREE_INST_4x4 File: D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/conv.vhd Line: 120
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:22:17 on Mar 21,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_4x4.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.conv_tb_4x4
+# vsim -gui work.conv_tb_4x4 
+# Start time: 18:23:07 on Mar 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.common_pkg(body)
+# Loading work.conv_tb_4x4(architecture_of_tb)
+# Loading work.conv(logic)
+# Loading work.mul(logic)
+# Loading work.full_adder_tree(logic)
+# ** Fatal: (vsim-3357) At depth 1, port length (16) does not match actual length (8) for port "/conv_tb_4x4/DUT/LABEL_4x4/TREE_INST_4x4/A".
+#    Time: 0 ps  Iteration: 0  Instance: /conv_tb_4x4/DUT/LABEL_4x4/TREE_INST_4x4 File: D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_tree.vhd Line: 24
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:23:07 on Mar 21,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of common_pkg.vhd was successful.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_level.vhd was successful.
+# Compile of full_adder_tree.vhd was successful.
+# Compile of conv.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of conv_tb_4x4.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.conv_tb_4x4
+# vsim -gui work.conv_tb_4x4 
+# Start time: 18:23:55 on Mar 21,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.common_pkg(body)
+# Loading work.conv_tb_4x4(architecture_of_tb)
+# Loading work.conv(logic)
+# Loading work.mul(logic)
+# Loading work.full_adder_tree(logic)
+# Loading work.full_adder_level(logic)
+# Loading work.full_adder(logic)
+add wave -position insertpoint sim:/conv_tb_4x4/DUT/*
+run -all
+# ** Note: O must be '00000000' - O = '0''0''0''0''0''0''0''0'
+#    Time: 108 ns  Iteration: 0  Instance: /conv_tb_4x4
+# ** Note: O must be '10001000' - O = '1''0''0''0''1''0''0''0'
+#    Time: 8108 ns  Iteration: 0  Instance: /conv_tb_4x4
+# ** Note: O must be '00010000' - O = '0''0''0''1''0''0''0''0'
+#    Time: 16108 ns  Iteration: 0  Instance: /conv_tb_4x4
+# ** Note: O must be '11001000' - O = '1''1''0''0''1''0''0''0'
+#    Time: 24108 ns  Iteration: 0  Instance: /conv_tb_4x4
+# ** Note: O must be '01011000' - O = '0''1''0''1''1''0''0''0'
+#    Time: 32108 ns  Iteration: 0  Instance: /conv_tb_4x4
