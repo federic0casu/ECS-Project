@@ -65,7 +65,7 @@ architecture logic of conv is
     --------------------------------------------------------------------
     signal mul_to_tree  : VECTOR((K*K)-1 downto 0);
     signal tree_to_tree : VECTOR((K*K)-2 downto 0); 
-    signal temp         : VECTOR(2 downto 0);    
+    signal temp         : VECTOR(1 downto 0);    
     --------------------------------------------------------------------
     -- End signals declaration
     --------------------------------------------------------------------
@@ -106,8 +106,9 @@ begin
         port map (
             A_FA => temp(0),
             B_FA => mul_to_tree(8),
-            S_FA => OUTPUT
+            S_FA => temp(1)
         );
+        OUTPUT <= temp(1);
     end generate;
 
     LABEL_4x4: if K = 4 generate
