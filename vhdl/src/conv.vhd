@@ -65,7 +65,7 @@ architecture logic of conv is
     --------------------------------------------------------------------
     signal mul_to_tree  : VECTOR((K*K)-1 downto 0);
     signal tree_to_tree : VECTOR((K*K)-2 downto 0); 
-    signal temp         : VECTOR(K downto 0);    
+    signal temp         : VECTOR(2 downto 0);    
     --------------------------------------------------------------------
     -- End signals declaration
     --------------------------------------------------------------------
@@ -83,11 +83,11 @@ begin
     LABEL_2x2: if K = 2 generate
         TREE_INST_2x2: full_adder_tree 
         generic map (
-            M => 4
+            M => 2
         )
         port map (
-            A => mul_to_tree(3 downto 0),
-            B => mul_to_tree(7 downto 4),
+            A => mul_to_tree(1 downto 0),
+            B => mul_to_tree(3 downto 2),
             S => OUTPUT
         );
     end generate;
@@ -141,17 +141,7 @@ begin
             B => mul_to_tree(23 downto 20),
             S => temp(1)
         );
-        TREE_INST_5x5_3RD: full_adder_tree 
-        generic map (
-            M => 2
-        )
-        port map (
-            A => mul_to_tree(24 downto 23),
-            B => temp(4 downto 3),
-            S => temp(2)
-        );
-        temp(4 downto 3) <= temp(1 downto 0);
-        OUTPUT <= std_logic_vector(unsigned(temp(2)) + unsigned(mul_to_tree(24)));
+        OUTPUT <= std_logic_vector(unsigned(temp(0)) + unsigned(temp(1)) + unsigned(mul_to_tree(24)));
     end generate;
 
     LABEL_KxK: if K > 5 generate

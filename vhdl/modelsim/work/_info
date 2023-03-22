@@ -8,15 +8,15 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dE:/ModelSim-Intel_FPGA
+Z0 dD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/modelsim
 Pcommon_pkg
-Z0 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
-Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 452
-Z4 w1679390526
-Z5 dD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/modelsim
+Z1 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 21
+Z5 w1679390526
+R0
 Z6 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/common_pkg.vhd
 Z7 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/common_pkg.vhd
 l0
@@ -26,9 +26,9 @@ V9e6J4?ijdFO5NEEaI_:hn2
 Z8 OV;C;2020.1;71
 32
 b1
-Z9 !s110 1679419428
+Z9 !s110 1679491395
 !i10b 1
-Z10 !s108 1679419428.000000
+Z10 !s108 1679491395.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/common_pkg.vhd|
 Z12 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/common_pkg.vhd|
 !i113 1
@@ -36,11 +36,11 @@ Z13 o-work work -2002 -explicit
 Z14 tExplicit 1 CvgOpt 0
 Bbody
 Z15 DPx4 work 10 common_pkg 0 22 9e6J4?ijdFO5NEEaI_:hn2
-R0
 R1
 R2
 R3
-!i122 452
+R4
+!i122 21
 l0
 L36 1
 Vaz`fGd?`m[cC6L2^=MRYa1
@@ -56,14 +56,14 @@ R12
 R13
 R14
 Econv
-Z16 w1679419412
+Z16 w1679491388
 R15
-R0
 R1
 R2
 R3
-!i122 456
-R5
+R4
+!i122 22
+R0
 Z17 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/conv.vhd
 Z18 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/conv.vhd
 l0
@@ -72,237 +72,96 @@ V`N^QeA]nMJL3[eb>^ieVT0
 !s100 NJXcZ=bnA_A27c4?i6ZnP0
 R8
 32
-Z19 !s110 1679419429
+R9
 !i10b 1
-Z20 !s108 1679419429.000000
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/conv.vhd|
-Z22 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/conv.vhd|
+R10
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/conv.vhd|
+Z20 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/conv.vhd|
 !i113 1
 R13
 R14
 Alogic
 R15
-R0
 R1
 R2
 R3
+R4
 DEx4 work 4 conv 0 22 `N^QeA]nMJL3[eb>^ieVT0
-!i122 456
+!i122 22
 l72
-L29 158
-VK3h_UC>mhNbh`:9LYXzj^1
-!s100 8nAHcc@b3I6VKaUA=>meL1
+L29 148
+VoL;UN3>J22[hSS9<2[G8I1
+!s100 GiKN4fazAe7OJD0`5Q^WU0
 R8
 32
-R19
+R9
 !i10b 1
+R10
+R19
 R20
-R21
-R22
 !i113 1
 R13
 R14
-Econv_tb
-Z23 w1679414772
+Econv_tb_5x5
+Z21 w1679490570
 R15
-R0
 R1
 R2
 R3
-!i122 423
-R5
-Z24 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_16x16.vhd
-Z25 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_16x16.vhd
+R4
+!i122 27
+R0
+Z22 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_5x5.vhd
+Z23 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_5x5.vhd
 l0
 L9 1
-Vl3abde4k1J<MDoh36e6@b3
-!s100 C92ca=TYX7e3Q2HQlG1jh3
+VVek7U[5Dm2^;[z[=ohaL`1
+!s100 <2<Jk>@>MYJm:g1gYmA6W3
 R8
 32
-Z26 !s110 1679418715
+Z24 !s110 1679491396
 !i10b 1
-Z27 !s108 1679418715.000000
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_16x16.vhd|
-Z29 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_16x16.vhd|
+Z25 !s108 1679491396.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_5x5.vhd|
+Z27 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_5x5.vhd|
 !i113 1
 R13
 R14
 Aarchitecture_of_tb
 R15
-R0
 R1
 R2
 R3
-DEx4 work 7 conv_tb 0 22 l3abde4k1J<MDoh36e6@b3
-!i122 423
+R4
+Z28 DEx4 work 11 conv_tb_5x5 0 22 Vek7U[5Dm2^;[z[=ohaL`1
+!i122 27
 l52
-Z30 L12 180
-VTJbZXcZW18WHH?4CTCYQl2
-!s100 ]d[o8Oef9<e1dT[hemTa]3
+Z29 L12 179
+Z30 V=K`XFo0l>=K_C^l?n_K=z3
+Z31 !s100 nYl1M0fjBmKS:4W^i;hBZ3
 R8
 32
-R26
-!i10b 1
-R27
-R28
-R29
-!i113 1
-R13
-R14
-Econv_tb_16x16
-Z31 w1679418764
-R15
-R0
-R1
-R2
-R3
-!i122 430
-R5
 R24
+!i10b 1
 R25
-l0
-L9 1
-V=lbnP>PS[MC47i5nBW]WY2
-!s100 I]dBkdcSz7P@z5NUk6znM3
-R8
-32
-Z32 !s110 1679418770
-!i10b 1
-Z33 !s108 1679418769.000000
-R28
-R29
-!i113 1
-R13
-R14
-Aarchitecture_of_tb
-R15
-R0
-R1
-R2
-R3
-DEx4 work 13 conv_tb_16x16 0 22 =lbnP>PS[MC47i5nBW]WY2
-!i122 430
-l52
-R30
-V`Jk@ZEVE?g8d4Vf>9OOl91
-!s100 DS:JQ2C>FK2AI^H@Y8Xh;1
-R8
-32
-R32
-!i10b 1
-R33
-R28
-R29
-!i113 1
-R13
-R14
-Econv_tb_3x3
-Z34 w1679418538
-R15
-R0
-R1
-R2
-R3
-!i122 416
-R5
-Z35 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_3x3.vhd
-Z36 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_3x3.vhd
-l0
-L9 1
-VDg8^Wn=B?aMij:a=UN5In0
-!s100 8nX0fb2JolGFf:OTB?P?:2
-R8
-32
-Z37 !s110 1679418543
-!i10b 1
-Z38 !s108 1679418543.000000
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_3x3.vhd|
-Z40 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_3x3.vhd|
-!i113 1
-R13
-R14
-Aarchitecture_of_tb
-R15
-R0
-R1
-R2
-R3
-DEx4 work 11 conv_tb_3x3 0 22 Dg8^Wn=B?aMij:a=UN5In0
-!i122 416
-l52
-L12 211
-V[dIaYSU^K`J9:98Rc=Ahe0
-!s100 _enVgS5E>b>mVChdhBXS92
-R8
-32
-R37
-!i10b 1
-R38
-R39
-R40
-!i113 1
-R13
-R14
-Econv_tb_4x4
-Z41 w1679419071
-R15
-R0
-R1
-R2
-R3
-!i122 458
-R5
-Z42 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_4x4.vhd
-Z43 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_4x4.vhd
-l0
-L9 1
-VknzPe8UjXfX8;g2XR?<1m2
-!s100 lWEMF0Y4fXePCW4Dc`AJ]1
-R8
-32
-R19
-!i10b 1
-R20
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_4x4.vhd|
-Z45 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/conv_tb/conv_tb_4x4.vhd|
-!i113 1
-R13
-R14
-Aarchitecture_of_tb
-R15
-R0
-R1
-R2
-R3
-Z46 DEx4 work 11 conv_tb_4x4 0 22 knzPe8UjXfX8;g2XR?<1m2
-!i122 458
-l52
-R30
-Z47 VCbnz84A=WE59KKzeI;oYG0
-Z48 !s100 j]TV?6U3[V]USVI=o8U`@2
-R8
-32
-R19
-!i10b 1
-R20
-R44
-R45
+R26
+R27
 !i113 1
 R13
 R14
 Efull_adder
-Z49 w1679412878
-R0
-R15
+Z32 w1679421912
 R1
+R15
 R2
 R3
-!i122 453
-R5
-Z50 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder.vhd
-Z51 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder.vhd
+R4
+!i122 23
+R0
+Z33 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder.vhd
+Z34 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder.vhd
 l0
-Z52 L17 1
+Z35 L17 1
 V?KZ[16gUJcAK?KkcMgTSm1
 !s100 l5M4^haiLS?5`Wcl5`I^<3
 R8
@@ -310,19 +169,19 @@ R8
 R9
 !i10b 1
 R10
-Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder.vhd|
-Z54 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder.vhd|
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder.vhd|
+Z37 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder.vhd|
 !i113 1
 R13
 R14
 Alogic
-R0
-R15
 R1
+R15
 R2
 R3
+R4
 DEx4 work 10 full_adder 0 22 ?KZ[16gUJcAK?KkcMgTSm1
-!i122 453
+!i122 23
 l26
 L25 4
 V_5z:FGiITSzT;ac2;2VXF3
@@ -332,196 +191,149 @@ R8
 R9
 !i10b 1
 R10
-R53
-R54
+R36
+R37
 !i113 1
 R13
 R14
 Efull_adder_level
-Z55 w1679391139
+Z38 w1679391139
 R15
-R0
 R1
 R2
 R3
-!i122 454
-R5
-Z56 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_level.vhd
-Z57 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_level.vhd
+R4
+!i122 24
+R0
+Z39 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_level.vhd
+Z40 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_level.vhd
 l0
 L21 1
 V5LUFjGijfL8WZZ8?0gZ`a1
 !s100 >0mmR4^V1li=co<JjVZ;]2
 R8
 32
-R9
+R24
 !i10b 1
-R10
-Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_level.vhd|
-Z59 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_level.vhd|
+R25
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_level.vhd|
+Z42 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_level.vhd|
 !i113 1
 R13
 R14
 Alogic
 R15
-R0
 R1
 R2
 R3
+R4
 DEx4 work 16 full_adder_level 0 22 5LUFjGijfL8WZZ8?0gZ`a1
-!i122 454
+!i122 24
 l46
 L32 26
 V?YWMm<V2@SEf>bG2O2kOQ3
 !s100 N^AfbSLOeISjRWY[ebPcg2
 R8
 32
-R9
+R24
 !i10b 1
-R10
-R58
-R59
+R25
+R41
+R42
 !i113 1
 R13
 R14
 Efull_adder_tree
-Z60 w1679416286
+Z43 w1679421914
 R15
-R0
 R1
 R2
 R3
-!i122 455
-R5
-Z61 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_tree.vhd
-Z62 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_tree.vhd
+R4
+!i122 25
+R0
+Z44 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_tree.vhd
+Z45 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_tree.vhd
 l0
 L19 1
 Vig8lUkgoYLk?LL[XX4=KV1
 !s100 0UXBH2ZU1?L@nBUkFnk1>1
 R8
 32
-R19
+R24
 !i10b 1
-R10
-Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_tree.vhd|
-Z64 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_tree.vhd|
+R25
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_tree.vhd|
+Z47 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/full_adder_tree.vhd|
 !i113 1
 R13
 R14
 Alogic
 R15
-R0
 R1
 R2
 R3
+R4
 DEx4 work 15 full_adder_tree 0 22 ig8lUkgoYLk?LL[XX4=KV1
-!i122 455
+!i122 25
 l65
 L30 85
-VQUWD0aeSOAd`F_j:5Y>bB0
-!s100 C5^64fZBZLjaKb=UfTRg13
+Vd`Iib<okUF6PG7l:Nf@0j0
+!s100 FM5<XkPYa;_GVao3iINnF2
 R8
 32
-R19
+R24
 !i10b 1
-R10
-R63
-R64
-!i113 1
-R13
-R14
-Efull_adder_tree_tb
-Z65 w1679391162
-R15
-R0
-R1
-R2
-R3
-!i122 184
-R5
-Z66 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/full_adder_tree_tb/full_adder_tree_tb.vhd
-Z67 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/full_adder_tree_tb/full_adder_tree_tb.vhd
-l0
-L9 1
-VBX_`E5S5^:E>oURD2jPWZ1
-!s100 dE[[f93oFGTZ1EI;^TCTk3
-R8
-32
-Z68 !s110 1679394337
-!i10b 1
-Z69 !s108 1679394337.000000
-Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/full_adder_tree_tb/full_adder_tree_tb.vhd|
-Z71 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/tb/full_adder_tree_tb/full_adder_tree_tb.vhd|
-!i113 1
-R13
-R14
-Aarchitecture_of_tb
-R15
-R0
-R1
-R2
-R3
-DEx4 work 18 full_adder_tree_tb 0 22 BX_`E5S5^:E>oURD2jPWZ1
-!i122 184
-l53
-L12 182
-Vj=:cl`I;aM<MAGKO95k9?1
-!s100 9K7ed^EF:XY>OXQ93z:jh1
-R8
-32
-R68
-!i10b 1
-R69
-R70
-R71
+R25
+R46
+R47
 !i113 1
 R13
 R14
 Emul
-Z72 w1679406359
-R0
-R15
+Z48 w1679406359
 R1
+R15
 R2
 R3
-!i122 457
-R5
-Z73 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/mul.vhd
-Z74 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/mul.vhd
+R4
+!i122 26
+R0
+Z49 8D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/mul.vhd
+Z50 FD:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/mul.vhd
 l0
-R52
+R35
 V9Xm>aShTSknOWA9m?;HCL3
 !s100 cECiQi1]RBGNHTmTlg18g3
 R8
 32
-R19
+R24
 !i10b 1
-R20
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/mul.vhd|
-Z76 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/mul.vhd|
+R25
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/mul.vhd|
+Z52 !s107 D:/Computer Engineering @ UniPi/[00] - ECS/PROJECT/ECS-Project/vhdl/src/mul.vhd|
 !i113 1
 R13
 R14
 Alogic
-R0
-R15
 R1
+R15
 R2
 R3
+R4
 DEx4 work 3 mul 0 22 9Xm>aShTSknOWA9m?;HCL3
-!i122 457
+!i122 26
 l33
 L25 12
 VS49X_ZfHVFgMB<L8c2z8Z3
 !s100 X=l@eHI<0EVXg[K8f@AM<1
 R8
 32
-R19
+R24
 !i10b 1
-R20
-R75
-R76
+R25
+R51
+R52
 !i113 1
 R13
 R14

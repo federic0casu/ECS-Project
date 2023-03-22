@@ -77,7 +77,7 @@ begin
                 );
         end generate;
 
-        LABEL_SECOND_LEVEL: if i = 1 generate
+        LABEL_SECOND_LEVEL: if i = 1 and log2(M) > 1 generate
             SECOND_LEVEL: full_adder_level
                 generic map (
                     M_L => M/2
