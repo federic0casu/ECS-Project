@@ -15,18 +15,19 @@ library work;
     use work.common_pkg.all;
 
 
-entity conv is
+entity alu is 
     generic (
         K      : positive
     );
     port (
-        INPUT  : in  VECTOR((2*K*K)-1 downto 0);
+        INPUT0  : in  VECTOR((K*K)-1 downto 0);
+        INPUT1  : in  VECTOR((K*K)-1 downto 0);
         OUTPUT : out std_logic_vector(N_BIT-1 downto 0)
     );
 end entity;
 
 
-architecture logic of conv is
+architecture logic of alu is
     --------------------------------------------------------------------
     -- Components declaration
     --------------------------------------------------------------------
@@ -65,7 +66,7 @@ architecture logic of conv is
     --------------------------------------------------------------------
     signal mul_to_tree  : VECTOR((K*K)-1 downto 0);
     signal tree_to_tree : VECTOR((K*K)-2 downto 0); 
-    signal temp         : VECTOR(1 downto 0);    
+    signal temp         : VECTOR(2 downto 0);    
     --------------------------------------------------------------------
     -- End signals declaration
     --------------------------------------------------------------------
@@ -74,8 +75,8 @@ begin
     LABEL_MUL: for i in 0 to (K*K)-1 generate
         MUL_INST: mul 
             port map (
-                A_M => INPUT(i),
-                B_M => INPUT(i+K*K),
+                A_M => INPUT0(i),
+                B_M => INPUT1(i),
                 S_M => mul_to_tree(i)
             );
     end generate;
@@ -106,9 +107,8 @@ begin
         port map (
             A_FA => temp(0),
             B_FA => mul_to_tree(8),
-            S_FA => temp(1)
+            S_FA => OUTPUT
         );
-        OUTPUT <= temp(1);
     end generate;
 
     LABEL_4x4: if K = 4 generate
