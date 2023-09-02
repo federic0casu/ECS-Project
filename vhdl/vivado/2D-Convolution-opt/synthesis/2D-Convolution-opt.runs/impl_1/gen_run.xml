@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1693670799">
+  <File Type="BITSTR-BMM" Name="convolution_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="convolution_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="convolution_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="convolution_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="convolution.tcl"/>
+  <File Type="OPT-TIMING" Name="convolution_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="convolution_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="convolution_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="convolution_reports.tcl"/>
+  <File Type="OPT-DRC" Name="convolution_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="convolution.hwdef"/>
+  <File Type="PWROPT-DCP" Name="convolution_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="convolution_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="convolution_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="convolution_placed.dcp"/>
+  <File Type="PLACE-IO" Name="convolution_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="convolution_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="convolution_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="convolution_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="convolution_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="convolution_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="convolution_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="convolution_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="convolution_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="convolution.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="convolution_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="convolution_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="convolution_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="convolution.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="convolution_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="convolution_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="convolution_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="convolution_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="convolution_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="convolution_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="convolution_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="convolution.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="convolution_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="convolution_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="convolution_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="convolution_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="convolution_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="convolution_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="convolution_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="convolution_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="convolution_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="convolution_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="convolution_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="convolution_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="convolution_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="convolution_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="convolution_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="convolution_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="convolution_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="convolution_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="convolution_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="convolution_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="convolution_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="convolution.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="convolution_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="convolution.rbt"/>
+  <File Type="BITSTR-NKY" Name="convolution.nky"/>
+  <File Type="PDI-FILE" Name="convolution.pdi"/>
+  <File Type="RCFI_FILE" Name="convolution.rcfi"/>
+  <File Type="CFI_FILE" Name="convolution.cfi"/>
+  <File Type="RNPI_FILE" Name="convolution.rnpi"/>
+  <File Type="NPI_FILE" Name="convolution.npi"/>
+  <File Type="RBD_FILE" Name="convolution.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="convolution.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="convolution.sysdef"/>
+  <File Type="BG-BGN" Name="convolution.bgn"/>
+  <File Type="BG-DRC" Name="convolution.drc"/>
+  <File Type="RDI-RDI" Name="convolution.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../src/DFF_N.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/common_pkg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/alu.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/fifo.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/fifo_m.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/full_adder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/full_adder_level.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/full_adder_tree.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/mul.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/pipeline.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/state_machine.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/convolution.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="convolution"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/2D-Convolution-opt-contraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/2D-Convolution-opt-contraints.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

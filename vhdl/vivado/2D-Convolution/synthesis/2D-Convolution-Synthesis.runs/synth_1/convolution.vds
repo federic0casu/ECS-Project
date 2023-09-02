@@ -1,0 +1,313 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Sep  2 16:53:30 2023
+# Process ID: 2008
+# Current directory: D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/2D-Convolution-Synthesis.runs/synth_1
+# Command line: vivado.exe -log convolution.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source convolution.tcl
+# Log file: D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/2D-Convolution-Synthesis.runs/synth_1/convolution.vds
+# Journal file: D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/2D-Convolution-Synthesis.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source convolution.tcl -notrace
+Command: synth_design -top convolution -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 468
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'convolution' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/convolution.vhd:35]
+	Parameter DIM_KER bound to: 2 - type: integer 
+	Parameter DIM_IMG bound to: 4 - type: integer 
+	Parameter N_BIT bound to: 8 - type: integer 
+	Parameter DIM_KER bound to: 2 - type: integer 
+	Parameter DIM_IMG bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'state_machine' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/state_machine.vhd:9' bound to instance 'fsm0' of component 'state_machine' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/convolution.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'state_machine' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/state_machine.vhd:27]
+	Parameter DIM_KER bound to: 2 - type: integer 
+	Parameter DIM_IMG bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'state_machine' (1#1) [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/state_machine.vhd:27]
+	Parameter DIM_IMG bound to: 4 - type: integer 
+	Parameter DIM_KER bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'pipeline' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/pipeline.vhd:13' bound to instance 'pipeline0' of component 'pipeline' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/convolution.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'pipeline' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/pipeline.vhd:30]
+	Parameter DIM_IMG bound to: 4 - type: integer 
+	Parameter DIM_KER bound to: 2 - type: integer 
+	Parameter DEPTH bound to: 1 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'fifo' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo.vhd:4' bound to instance 'dff0' of component 'fifo' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/pipeline.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'fifo' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo.vhd:18]
+	Parameter DEPTH bound to: 1 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'DFF_N' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/DFF_N.vhd:4' bound to instance 'DDF_N_1' of component 'DFF_N' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'DFF_N' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/DFF_N.vhd:17]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DFF_N' (2#1) [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/DFF_N.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'fifo' (3#1) [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo.vhd:18]
+	Parameter DEPTH bound to: 1 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'fifo' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo.vhd:4' bound to instance 'dff0' of component 'fifo' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/pipeline.vhd:80]
+	Parameter DEPTH bound to: 2 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'fifo' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo.vhd:4' bound to instance 'dff0' of component 'fifo' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/pipeline.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'fifo__parameterized2' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo.vhd:18]
+	Parameter DEPTH bound to: 2 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'DFF_N' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/DFF_N.vhd:4' bound to instance 'DDF_N_1' of component 'DFF_N' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo.vhd:44]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'DFF_N' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/DFF_N.vhd:4' bound to instance 'DDF_N_2' of component 'DFF_N' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'fifo__parameterized2' (3#1) [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo.vhd:18]
+	Parameter DEPTH bound to: 1 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'fifo' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo.vhd:4' bound to instance 'dff0' of component 'fifo' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/pipeline.vhd:80]
+	Parameter DEPTH bound to: 1 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'fifo' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo.vhd:4' bound to instance 'dfflast' of component 'fifo' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/pipeline.vhd:118]
+INFO: [Synth 8-256] done synthesizing module 'pipeline' (4#1) [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/pipeline.vhd:30]
+	Parameter DEPTH bound to: 4 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'fifo_m' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo_m.vhd:9' bound to instance 'kernel_buffer' of component 'fifo_m' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/convolution.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'fifo_m' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo_m.vhd:23]
+	Parameter DEPTH bound to: 4 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'DFF_N' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/DFF_N.vhd:4' bound to instance 'DDF_N_1' of component 'DFF_N' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo_m.vhd:48]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'DFF_N' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/DFF_N.vhd:4' bound to instance 'DDF_N_2' of component 'DFF_N' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo_m.vhd:60]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'DFF_N' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/DFF_N.vhd:4' bound to instance 'DDF_N_2' of component 'DFF_N' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo_m.vhd:60]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'DFF_N' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/DFF_N.vhd:4' bound to instance 'DDF_N_2' of component 'DFF_N' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo_m.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'fifo_m' (5#1) [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/fifo_m.vhd:23]
+	Parameter K bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'alu' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/alu.vhd:18' bound to instance 'alu0' of component 'alu' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/convolution.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'alu' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/alu.vhd:30]
+	Parameter K bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'mul' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/mul.vhd:17' bound to instance 'MUL_INST' of component 'mul' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/alu.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'mul' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/mul.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'mul' (6#1) [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/mul.vhd:25]
+INFO: [Synth 8-3491] module 'mul' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/mul.vhd:17' bound to instance 'MUL_INST' of component 'mul' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/alu.vhd:65]
+INFO: [Synth 8-3491] module 'mul' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/mul.vhd:17' bound to instance 'MUL_INST' of component 'mul' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/alu.vhd:65]
+INFO: [Synth 8-3491] module 'mul' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/mul.vhd:17' bound to instance 'MUL_INST' of component 'mul' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/alu.vhd:65]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/full_adder.vhd:17' bound to instance 'ADDER_0' of component 'full_adder' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/alu.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'full_adder' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/full_adder.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'full_adder' (7#1) [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/full_adder.vhd:25]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/full_adder.vhd:17' bound to instance 'ADDER_i' of component 'full_adder' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/alu.vhd:83]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/full_adder.vhd:17' bound to instance 'ADDER_i' of component 'full_adder' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/alu.vhd:83]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/full_adder.vhd:17' bound to instance 'ADDER_LAST' of component 'full_adder' [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/alu.vhd:91]
+INFO: [Synth 8-256] done synthesizing module 'alu' (8#1) [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/alu.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'convolution' (9#1) [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/src/convolution.vhd:35]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 999.754 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/2D-Convolution-Synthesis.srcs/constrs_1/new/2D-Convolution_constraints.xdc]
+Finished Parsing XDC File [D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/2D-Convolution-Synthesis.srcs/constrs_1/new/2D-Convolution_constraints.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 999.754 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'r_st_present_reg' in module 'state_machine'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   st_s0 |                               00 |                               00
+                   st_s1 |                               01 |                               01
+                   st_s2 |                               10 |                               10
+                   st_s3 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_st_present_reg' using encoding 'sequential' in module 'state_machine'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'alu0/LABEL_KxK_FOR[2].LABEL_ADDER_i.ADDER_i' (full_adder) to 'alu0/LABEL_KxK_FOR[2].LABEL_ADDER_LAST.ADDER_LAST'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   2 Input    8 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                8 Bit    Registers := 10    
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 3     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    62|
+|3     |LUT1   |     3|
+|4     |LUT2   |   131|
+|5     |LUT3   |    13|
+|6     |LUT4   |    40|
+|7     |LUT5   |    17|
+|8     |LUT6   |    61|
+|9     |FDCE   |    85|
+|10    |FDRE   |    96|
+|11    |IBUF   |    12|
+|12    |OBUF   |     9|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 999.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:34 . Memory (MB): peak = 999.754 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 999.754 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 999.754 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 62 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 999.754 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+61 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 999.754 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Computer Engineering @ UniPi/ECS/PROJECT/ECS-Project/vhdl/vivado/2D-Convolution/2D-Convolution-Synthesis.runs/synth_1/convolution.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file convolution_utilization_synth.rpt -pb convolution_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Sep  2 16:54:19 2023...
